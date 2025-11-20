@@ -1,0 +1,27 @@
+ul{
+
+    list-style-type:none;
+    padding: 10px 25px;
+    border-left: 8px solid green;
+    background-color: blue;
+    color: black;
+}
+
+ol{
+    padding: 0;
+     border-bottom: 1px solid gray;
+
+}
+ol{
+    background-color:red;
+    list-style: upper-roman;
+}
+ol li{
+    background-color: aqua;
+    padding: 10px;
+    margin: 30px;
+}
+td,th {
+    border:1px solid black ;
+    padding: 10px;
+}
