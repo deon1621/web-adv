@@ -1,0 +1,54 @@
+article p{
+   background: red;
+   color: black;
+padding: 20px;
+}
+article div p{
+ background: blue;
+ color: brown;
+padding: 20px;
+}
+article p{
+background: blue
+
+}
+article > p{
+    padding: 20px;
+    background: green;
+}
+article + p{
+    background: blue;
+}
+ article ~ p{
+background:goldenrod;
+padding: 20px;
+ }
+ input :in-range{
+border:2px solid blue;
+
+ }
+#link:hover{
+      background:red
+
+}
+nav a{
+padding:20px:
+margin:30px:
+}
+nav {
+padding: 30px;
+margin: 20px;
+background-color: black;
+
+}
+nav :hover{
+    background: rgb(rgb 233, 210, 5);
+}
+
+nav a:active{
+
+background: coral;
+}
+ nav a:active{
+color: rgb(233, 210, 5);
+ }
