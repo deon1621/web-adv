@@ -1,0 +1,48 @@
+.dropdon-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: rgb(1, 65, 241);
+    width:150px;
+    padding: 10px;
+     box-shadow: 10px 10px 10px 10px black;
+}
+.tooltip{
+    padding: 19px;
+    display: inline-block;
+    border: 2px dotted black;
+}
+.tooltip-text{
+    visibility: hidden;
+}
+.tooltip:hover .tooltip-text{
+visibility: visible;
+width: 100px;
+background: black;
+text-align: center;
+color: white;
+padding: 5px;
+position: absolute;
+top: 140px;
+left: 6%;
+margin-left: -60;
+}
+#example1{
+    width: 250px;
+    background-image:url(emogji.jbp.jpg);
+    height: 150px;
+    border-radius: 20px 40px;
+}
+#example2{
+    width: 250px;
+    background-image:url(emogji.jbp.jpg);
+    height: 150px;
+    border-radius: 20px 40px;
+}
+#example3{
+    width: 250px;
+    background-image:url(emogji.jbp.jpg);
+    height: 150px;
+    border-radius: 20px 40px;
+}
