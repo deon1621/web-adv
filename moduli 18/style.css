@@ -1,0 +1,36 @@
+#test-div{
+    height:200px ;
+    width: 200px;
+    border-radius:20px ;
+    background-color: rgb(21, 9, 194);
+    color: rgb(247, 247, 247);
+    margin: 200px;
+    padding: 20px;
+   /* transform:translate(500px,500px);*/
+    /*transform: rotate(90deg);*/
+    /* transform: scale(2,2); */
+    /* transform: scaleX(6); */
+    /* transform: scaleY(4); */
+    /* transform: skewX(30deg); */
+     /* transform: skewY(40deg);  */
+     
+}
+#transition{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition:background 3s, border-radius 5s;
+}
+
+#transition:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+/* zom in */
+#engineers img{
+    transform: scale(1);
+    transition: 3s;
+}
+#engineers:hover img{
+    transform: scale(1.5);
+}
