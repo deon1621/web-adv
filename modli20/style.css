@@ -3,11 +3,23 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(107, 8, 124);
     color: rgb(105, 9, 114);
-    padding: 20px;
+    padding: 620px;
 }
 
+ #cuba{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: inline-block;
+ }
+ #text{
+    text align:center ;
+    padding :50px;
+ }
+#buton{
+    display: block;
+    margin: auto;
 
-
+}
 nav ul{
 list-style: none;
 text-align: center;
@@ -33,3 +45,4 @@ nav h1{
     color: white;
     width: 50%;
 }
+
