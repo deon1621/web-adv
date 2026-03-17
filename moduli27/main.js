@@ -44,12 +44,12 @@ var car = {licensPlate:"01-535-DB", vin:"bbb324462"  ,name:"BMW"  ,color:"blue",
 
 alert(car.licensPlate);
 
-function computer ={name,CPU,GPU,RAM};
-
-this,name=name
-this,CPU=CPU
-this,GPU=GPU
-this,RAM=RAM
+    function computer(name, CPU, GPU, RAM) {
+    this.name = name;
+    this.CPU = CPU;
+    this.GPU = GPU;
+    this.RAM = RAM;
+}
 
 var c1=new computer("8gg", "macbook","5090","intel-9")
 var c2=new computer("acer","64g","intel 9 ultra")
