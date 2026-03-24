@@ -37,3 +37,41 @@ var v_text = document.getElementById("text1")
 v_button.onclick = function(){
     v_text.style.color="red"
 }
+
+
+
+var btn_circle = document.getElementById("btncircle");
+var btn_rectangle = document.getElementById("btn_rectangle");
+var btn_triangle = document.getElementById("btntriangle");
+
+var circle = document.getElementById("circle");
+var rectangle = document.getElementById("rectangle");
+var triangle = document.getElementById("triangle");
+
+
+btn_circle.onclick = function()
+ {
+    circle.setAttribute("class", "shapecircle");
+}
+
+btn_rectangle.onclick = function()
+ {
+    rectangle.setAttribute("class", "shaperectangle");
+}
+
+btn_triangle.onclick = function()
+    {
+        triangle.setAttribute("class", "shapetriangel");
+    
+    }
+    circle.onclick = function() {
+        circle.setAttribute("class", "hide");
+    }
+
+    rectangle.onclick = function() {
+        rectangle.setAttribute("class", "hide");
+    }
+
+    triangle.onclick = function() {
+        triangle.setAttribute("class", "hide");
+    }
