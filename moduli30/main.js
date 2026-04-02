@@ -48,3 +48,24 @@ var result2 = document.getElementById("result_id1")
         result2.innerHTML= " equal then 10"
     }
  }
+
+ var wakeuptime;
+ var dstime;
+ var sleeptime;
+ var noon= 12;
+
+    function showcurrenttime(){
+        var clock = document.getElementById("clock");
+        var currenttime = new Date();
+
+        var hours = currenttime.getHours();
+        var minutes = currenttime.getMinutes();
+        var seconds = currenttime.getSeconds();
+        var meridian = "AM";
+        if (hours >= noon){
+            meridan ="PM";
+    }
+    var clocktime = hours + ":"+ minutes + ":" + seconds + " " + meridian;
+    clock.innerText = clocktime;
+    changeimage();
+    }
