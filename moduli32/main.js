@@ -50,3 +50,17 @@ document.getElementById('result9').innerHTML = text.match(regex);
 var text = "100 percent";
 var regex = /\d/g;
 document.getElementById('result10').innerHTML = text.match(regex);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
