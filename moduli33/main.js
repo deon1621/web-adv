@@ -41,4 +41,4 @@ if(! (age.match(age_regex))){
       document.getElementById("city_error").style.visibility = "hidden";
       return true;
 }
-}
+} 
