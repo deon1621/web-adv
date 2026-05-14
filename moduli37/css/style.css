@@ -1,0 +1,8 @@
+ul#sort li{
+    background-color: lightgray;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+}
+
